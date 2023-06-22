@@ -1,6 +1,7 @@
-const handleMongooseError = require("../middlewares/handleMongooseError");
 const isValidId = require("../middlewares/isValidId");
+const authenticate = require("./authenticate");
+
 module.exports = {
-  handleMongooseError,
   isValidId,
+  authenticate,
 };
