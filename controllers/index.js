@@ -14,6 +14,8 @@ const {
   logout,
   updateSubscription,
   updateAvatar,
+  verify,
+  resendVerify,
 } = require("./users");
 
 module.exports = {
@@ -29,4 +31,6 @@ module.exports = {
   logout,
   updateSubscription,
   updateAvatar,
+  verify,
+  resendVerify,
 };
